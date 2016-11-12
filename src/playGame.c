@@ -4,7 +4,7 @@
 #include "segmentlcd.h"
 #include "segmentlcd_spec.h"
 #include "segmentlcdconfig.h"
-#include "random.h""
+#include "random.h"
 
 
 extern int genRandSegment();
