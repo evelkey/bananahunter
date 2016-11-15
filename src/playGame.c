@@ -1,16 +1,4 @@
-#include "em_device.h"
-#include "em_chip.h"
-#include "InitDevice.h"
-#include "segmentlcd.h"
-#include "segmentlcd_spec.h"
-#include "segmentlcdconfig.h"
-#include "random.h""
-
-
-extern int genRandSegment();
-extern void initgetPos();
-extern int modifyPos(int lastPos,int* basket);
-extern void SegmentLCD_Symbol(lcdSymbol s, int on);
+#include "playGame.h"
 
 
 void delay() {

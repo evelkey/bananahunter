@@ -1,3 +1,6 @@
+#include "random.h"
+
+
 unsigned short lfsr = 0xACE1u;
 unsigned bit;
 

@@ -9,8 +9,8 @@
 #include "bsp_trace.h"
 #include "gpiointerrupt.h"
 #include "drawTools.h"
-
-
+#include "playGame.h"
+#include "getDifficulty.h"
 
 int play=0;
 
@@ -55,11 +55,6 @@ void gpioSetup(void)
   NVIC_EnableIRQ(GPIO_ODD_IRQn);
 }
 
-
-extern void game(int);
-extern void initgetdiff();
-extern int modifydiff(int diff);
-extern void CAPLESENSE_Init(bool);
 
 int main(void){
 	int difficulty=5000;
